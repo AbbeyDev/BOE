@@ -1,0 +1,36 @@
+#myNavbar{
+	background-color: rgb(4%, 4%, 24%);
+	height: 200px;
+}
+#navbar-collapse #list a{
+	color: #fff;
+	padding-bottom: 2px;
+	padding-left: 35px;
+	border-bottom: 1px;
+}
+.site-title{
+	margin-top: -2px;
+	color: #fff;
+}
+#navbar-collapse #list a:hover {
+	background-color:rgba(4%, 4%, 24%, 50%) ;
+	text-decoration-style: double;
+	
+}
+#navbar-collapse #list ul li ul li{
+	display: none;
+	border-bottom: 1px;
+	color: blue;
+}
+#navbar-collapse #list ul li:hover ul li {
+	background-color: blue;
+	display: block;
+}
+
+.list{
+	color: black;
+}
+.back-image img{
+	width: 101%;
+	margin-top: 51px;
+}
